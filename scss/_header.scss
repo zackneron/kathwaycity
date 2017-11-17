@@ -1,0 +1,79 @@
+/*=========  Header section ===============*/
+
+.list-inline-menu {
+    li {
+        display: block;
+        text-align: right;
+        font-size: 20px;
+
+        @media (min-width: 768px) {
+            border-right: 2px solid $green-darker;
+            display: inline-block;
+            font-size: 16px;
+            width: 150px;
+            text-align: center;
+        }
+
+        a {
+            padding: 5px 10px;
+            display: block;
+            color: $white;
+            @include transition(background-color, .5s);
+
+            &:hover {
+                background-color: $green-darker;
+            }
+
+            @media (min-width: 768px) {
+                padding: 16px 0;
+            }
+        }
+    }
+}
+
+.logo-base {
+    float: left;
+    @media (min-width: 768px) {
+        float: none;
+    }
+}
+.mobile-menu {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: $green;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+    span {
+        background: $white;
+        display: block;
+        margin-bottom: 3px;
+        height: 5px;
+    }
+}
+
+nav {
+    background: $green-light;
+    border-bottom: 2px solid $white;
+    height: 0;
+    overflow: hidden;
+
+    @media (min-width: 768px) {
+        height: 55px;
+    }
+}
+
+.toogle-menu {
+    height: 155px;
+    @media (min-width: 768px) {
+        height: 0;
+    }
+}

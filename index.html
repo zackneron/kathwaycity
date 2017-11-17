@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kath Way City - Home of Design, Website development, Freelance work, Web Design">
+    <meta name="keywords" content="Front-End-Developer, Freelance, Kath Way City - Home of Design, Developer">
+    <meta name="author" content="Zack Mutombo">
+    <link rel="shortcut icon" href="img/logo_small.gif"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Home - Kath Way City</title>
+</head>
+<body>
+	<noscript>
+		<h1 style="color: red; text-align: center;">
+			This Website requires Javascript. Please make sure your browser's setting allows Javascript. If you see this message your Javascript is off, please turn it on.
+			Thank you.
+		</h1>
+	</noscript>
+	<!-- Google Tag Manager -->
+	    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5M2PF5"
+	    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	    })(window,document,'script','dataLayer','GTM-5M2PF5');</script>
+	<!-- End Google Tag Manager -->
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col col-mob-12">
+					<div class="logo-section clearfix">
+						<div class="logo-base">
+							<a href="index.html">
+								<img src="img/kath_log.gif" />
+							</a>
+						</div>
+						<div class="mobile-menu">
+	                        <span></span>
+	                        <span></span>
+	                        <span></span>
+	                    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header logo and burger icon end here -->
+
+	<nav id="mobile-menu__trigger">
+		<div class="container">
+			<div class="row">
+				<div class="col col-mob-12">
+					<div class="navbar">
+						<ul class="list-inline-menu" id="vue-content">
+				            <li v-html="item" v-for="item in items">{{ item }}</li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Nav menu list end here -->
+
+	<div class="banner">
+		<div class="container container--banner">
+			<div class="row">
+				<div class="col col-mob-12 col-tab-8">
+					<div class="banner__content center">
+						<p>Do you want a clean, sharp, professional website design that will adapt to the future growth of your business or organization? You have found your answer with our professional web design services. Here your plans meet with our passion for design and your dreams match our dedication to providing unique, customized web design services that turns your vision into success. We can also provide ongoing website maintenance service and manage your web hosting and domain name registration.</p>
+					</div>
+				</div>
+				<div class="col col-mob-12 col-tab-4 banner__img">
+					<img src="img/TheDon1.gif" class="img-responsive pull-right">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner section end here -->
+
+
+	<!-- Contents end here -->
+	<section class="content-section">
+		<div class="container">
+			<div class="row">
+				<div class="col col-mob-12">
+					<div class="welcome-section" id="vue-perks">
+						<h2 class="content-title center no-margin-top">Welcome</h2>
+
+						<p>We create websites with modern designs and features for small businesses and organizations that are professionally developed, optimized for the best desktop and mobile experiences, that are affordable, easy to maintain and with the flexibility to grow with your business needs.</p>
+
+						<p>We develop websites using the following programming languages and technologies: </p>
+
+						<ul class="perks-list">
+							<li><strong>HTML Tech:</strong> <span v-for="htmlTechs in htmlTech"> {{ htmlTechs }}</span></li>
+							<li><strong>CSS Tech and Frameworks:</strong> <span v-for="cssTechs in cssTech"> {{ cssTechs }}</span></li>
+							<li><strong>Javascript Tech:</strong> <span v-for="JSTechs in JSTech"> {{ JSTechs }}</span></li>
+						</ul>
+
+						<p>This allows us to offer various solutions that range in complexity. Open source, ready to use or special custom programmed applications, can be rapidly deployed depending on your unique business requirements.</p>
+					</div>
+
+					<div class="development-section" id="vue-dev">
+						<h2 class="content-title center">Website Design and Development</h2>
+
+						<p>Your website starts with a great design. Our aim is to convey your brand effectively with a design that visually portrays your business and that works for your target market. As first impressions are vital to encourage visitors to dig deeper and interact with your site, we design websites that have a clean look and feel and are easy to navigate and that work. <em v-on:click="textReveal = !textReveal" class="learn-more">learn more...</em></p>
+
+						<p v-bind:class="{textReveal:textReveal}">Combining a great design and the choice of the most appropriate "back-end" applications will ensure that your website provides the visual appeal and functional ability to satisfy the needs of your business.
+						We develop websites using the following programming languages and technologies: PHP, MySQL, Javascript, CSS, XHTML, DHTML and HTML. This allows us to offer various solutions that range in complexity. Open source, ready to use or special custom programmed applications, can be rapidly deployed depending on your unique business requirements.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pre-footer banner">
+		<div class="container container--banner">
+			<div class="row">
+				<div class="col col-mob-12 col-tab-8">
+					<div class="banner__content">
+						<p>I am a Technical person with experience in Web Design and Development. With my background and experiences I consider myself to be an asset to any companies and can provide professional services required in my field of work.</p>
+
+						<p>I am a well organised person with excellent communication skill, I am bilingual proficient to communicate in French and English. Also I am a hard working personal with the desire to learn new technologies and grow with a stable and successful company. Over the past years I have been involved in the IT industry in Help desk, Customer Care and Technical Support.</p>
+					</div>
+				</div>
+				<div class="col col-mob-12 col-tab-4 banner__img">
+					<img src="img/imgfoot4.gif" class="img-responsive pull-right">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col col-mob-12">
+					<div class="footer-content">
+						<ul class="list-inline">
+							<li>
+								<a target="_blank" href="https://www.linkedin.com/in/katshi-mutombo-559b5752/">
+									<img src="img/linkedin-icons.png" class="icon">
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://github.com/zackneron/">
+									<img src="img/github-icons.png" class="icon">
+								</a>
+							</li>
+							<li><span class="copyright">&copy; Zack Mutombo 2017</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section end here -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<script type="text/javascript" src="js/script_vue.js"></script>
+	<script type="text/javascript" src="js/script_app.js"></script>
+</body>
+</html>

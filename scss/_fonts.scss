@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../font/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../font/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../font/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto ExtraBold";
+    src: url("../font/roboto/Roboto-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../font/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Italic";
+    src: url("../font/roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold Italic";
+    src: url("../font/roboto/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("../font/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto SemiBold";
+    src: url("../font/roboto/Roboto-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("../fonts/montserrat/Montserrat-Light.otf") format("opentype");
+}
+
+$font-default: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+
+$Roboto-regular: "Roboto Regular",
+$font-default;
+$Roboto-medium: "Roboto Medium",
+$font-default;
+$Roboto-bold: "Roboto Bold",
+$font-default;
+$Roboto-extrabold: "Roboto ExtraBold",
+$font-default;
+$Roboto-light: "Roboto Light",
+$font-default;
+$Roboto-black: "Roboto Black",
+$font-default;
+$Roboto-semibold: "Roboto SemiBold",
+$font-default;
+$Roboto-italic: "Roboto Italic",
+$font-default;
+$Roboto-bold-italic: "Roboto Bold Italic",
+$font-default;
+
+$Montserrat-Regular: "Montserrat Regular",
+$font-default;
+$Montserrat-Bold: "Montserrat Bold",
+$font-default;
+$Montserrat-Light: "Montserrat Light",
+$font-default;
