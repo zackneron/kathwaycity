@@ -43,6 +43,7 @@ new Vue({
         portfolio: [
             "<a target='_blank' href='https://github.com/zackneron?tab=repositories'>Github Links</a>", 
             "<a target='_blank' href='http://www.kathwaycity.byethost11.com/'>Kath Way</a>", 
+            "<a target='_blank' href='http://dikuwebdesign.fr/'>Diku Web Design</a>",
             "<a target='_blank' href='http://www.arc-en-ciel.byethost14.com/'>Arc En Ciel</a>"
         ]
 	}
